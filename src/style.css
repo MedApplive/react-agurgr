@@ -15,13 +15,16 @@ li {
 }
 
 .main {
-  align-content: center;
+  margin: 10%;
+  display: block;
+  align-items: center;
   border-radius: 5px;
   background-color: rgb(243, 229, 102);
 }
 .h1 {
   text-align: center;
   background-color: rgb(226, 177, 103);
+  padding: 20px;
 }
 
 .nav {
