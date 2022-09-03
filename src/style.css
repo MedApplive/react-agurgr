@@ -23,6 +23,9 @@ li {
   text-align: center;
   background-color: rgb(226, 177, 103);
 }
+
+
+
 .button {
   padding: 15px 25px;
   font-size: 24px;
@@ -47,10 +50,11 @@ li {
 }
 
 .card {
-  width: 450px;
+  width: 80%;
   background-color: #766cf1;
   border-radius: 5px;
   cursor: pointer;
+  margin: auto;
 }
 
 .card .container {
