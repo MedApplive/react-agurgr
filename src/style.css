@@ -24,7 +24,9 @@ li {
   background-color: rgb(226, 177, 103);
 }
 
-
+.nav {
+  text-align: center;
+}
 
 .button {
   padding: 15px 25px;

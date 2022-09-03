@@ -7,7 +7,7 @@ export default function App() {
       <h1 className="h1">Hello StackBlitz!</h1>
       <p>A sample page to experiment with.</p>
       <p>Looking for a link to GitHub</p>
-      <div>
+      <div className="nav">
         <ul>
           <li>
             <button className="button">Nav1</button>
