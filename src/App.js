@@ -5,6 +5,19 @@ export default function App() {
   return (
     <div className="main">
       <h1 className="h1">Hello StackBlitz!</h1>
+
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">
+          Home
+        </a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
       <p>A sample page to experiment with.</p>
       <p>Looking for a link to GitHub</p>
       <div className="nav">
@@ -29,4 +42,13 @@ export default function App() {
       </div>
     </div>
   );
+
+  function myFunction() {
+    var x = document.getElementById('myTopnav');
+    if (x.className === 'topnav') {
+      x.className += ' responsive';
+    } else {
+      x.className = 'topnav';
+    }
+  }
 }
